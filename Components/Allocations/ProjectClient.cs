@@ -3,7 +3,6 @@ using System.Net.Http;
 using System.Runtime.Serialization.Json;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
-using Allocations;
 
 namespace Allocations
 {

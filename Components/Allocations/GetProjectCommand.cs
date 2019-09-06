@@ -1,9 +1,8 @@
-﻿using System;
+﻿﻿using System;
 using System.Threading.Tasks;
 using Steeltoe.CircuitBreaker.Hystrix;
-using Timesheets;
 
-namespace TimesheetsServer
+namespace Allocations
 {
     public class GetProjectCommand : HystrixCommand<ProjectInfo>
     {

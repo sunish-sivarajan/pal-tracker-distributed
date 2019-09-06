@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Backlog;
 using Steeltoe.CircuitBreaker.Hystrix;
+using Timesheets;
 
-namespace BacklogServer
+namespace Timesheets
 {
     public class GetProjectCommand : HystrixCommand<ProjectInfo>
     {

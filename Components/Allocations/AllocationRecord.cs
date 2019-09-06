@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Allocations
 {
     [Table("allocations")]
+    
     public class AllocationRecord
     {
         [Column("id")] public long Id { get; private set; }
